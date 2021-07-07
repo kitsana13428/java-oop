@@ -4,6 +4,8 @@ public class Employee {
     private String name;
     private Double salary;
 
+    static int minSalary = 12000; //Static Attribute สามารถดึงไปใช้งานได้ง่าย 
+
     //Method
     public void setID(String id){ //สร้าง Method เพื่อเรียกใช้ ไปกำหนดค่า
         this.id=id; 

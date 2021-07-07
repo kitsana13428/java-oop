@@ -14,6 +14,10 @@ public class Main {
         e1.displayEmployee();
         System.out.println(""+e2.getName()); //ดึงมาแค่ชื่อ
         System.out.println(""+e2.getSalary());
+
+        int result = Employee.minSalary; //ดึง salary มาใช้งาน
+        System.out.println(result); //แสดงผล
+
     
     }
 }
