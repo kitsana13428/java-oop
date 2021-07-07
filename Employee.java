@@ -6,6 +6,15 @@ public class Employee {
 
     static int minSalary = 12000; //Static Attribute สามารถดึงไปใช้งานได้ง่าย 
 
+    public Employee (){ //Default constructor
+        System.out.println("I'm Employee");
+    }
+    public Employee(String name, Double salary){ //Method ไปให้คาสลูกดึงไปใช้
+        this.name = name;
+        this.salary = salary;
+        displayEmployee();
+    }
+
     //Method
     public void setID(String id){ //สร้าง Method เพื่อเรียกใช้ ไปกำหนดค่า
         this.id=id; 
@@ -20,7 +29,7 @@ public class Employee {
     }
 
     public void displayEmployee(){ //ดีงข้อมูลมาทั้งหมด
-        System.out.println("Nane = "+this.name);
+        System.out.println("Name = "+this.name);
         System.out.println("Salary = "+this.salary);
     }
 
