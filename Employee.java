@@ -20,7 +20,6 @@ public class Employee {
     }
 
     public void displayEmployee(){ //ดีงข้อมูลมาทั้งหมด
-        System.out.println("ID = "+this.id);
         System.out.println("Nane = "+this.name);
         System.out.println("Salary = "+this.salary);
     }

@@ -16,7 +16,22 @@ public class Main {
         System.out.println(""+e2.getSalary());
 
         int result = Employee.minSalary; //ดึง salary มาใช้งาน
-        System.out.println(result); //แสดงผล
+        System.out.println(result); //แสดงผล  
+        
+        System.out.println("---------------");
+
+        Programmer p1 = new Programmer();
+        p1.setName("kitsana");
+        p1.setSalary(40000.0);
+        p1.displayEmployee();
+        System.out.println("---------------");
+
+        Accounting ac1 = new Accounting();
+        ac1.setName("Somchai");
+        ac1.setSalary(30000.0);
+        ac1.displayEmployee();
+        System.out.println("---------------");
+
 
     
     }
