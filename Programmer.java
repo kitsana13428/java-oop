@@ -10,4 +10,10 @@ public class Programmer extends Employee{
             System.out.println("Skill = "+language[i]);
         }
     }
+    public void bonus(){
+       System.out.println("Bonus = 10%");
+    }
+    
+    
+    
 }

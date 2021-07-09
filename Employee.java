@@ -1,4 +1,4 @@
-public class Employee {
+ public class Employee {
     //Attribute
     private String id;
     private String name;
@@ -42,5 +42,8 @@ public class Employee {
     }
     public Double getSalary(){
         return this.salary;
+    }
+    public  void bonus(){
+        System.out.println("Show Bonus");
     }
 }
