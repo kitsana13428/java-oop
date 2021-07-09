@@ -1,9 +1,13 @@
 public class Programmer extends Employee{
     
-    public String skill = "JAVA PHP C PYTHON"; 
-    //Method
-    public Programmer(String name, Double salary){
-        super(name, salary); //ดึงคาสแม่มาใช้
-        System.out.println("I'm Programmer!");
+    //overloading method
+    public void skill(){
+        System.out.println("No Skill");
+    }
+    
+    public void skill(String...language){ //รับค่าเป็นอาเรย์ รับได้หลายๆตัว
+        for(int i=0;i<language.length;i++){ //ลูปค่าอาเรย์ออกมา
+            System.out.println("Skill = "+language[i]);
+        }
     }
 }
