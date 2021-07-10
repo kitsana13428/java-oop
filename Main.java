@@ -3,6 +3,8 @@ public class Main {
 
         Person p1=new Person();
         p1.Register();
+        p1.PreTest();
+        p1.PostTest();
     
     }
 }
